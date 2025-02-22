@@ -14,6 +14,11 @@ return {
   },
 
   {
+   'Exafunction/codeium.vim',
+    event = 'BufEnter'
+  },
+
+  {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
